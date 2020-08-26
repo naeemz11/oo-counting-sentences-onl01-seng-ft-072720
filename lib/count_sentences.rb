@@ -12,9 +12,9 @@ class String
   
   def exclamation? 
     self.end_with?("!")
-    
+    binding.pry
   end 
-   binding.pry
+   
   def count_sentences
     self.scan(/[^\.?!]+[\.?!]/).length
     
