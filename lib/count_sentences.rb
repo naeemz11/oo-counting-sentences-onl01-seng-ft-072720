@@ -1,3 +1,4 @@
+reqire 'pry'
 class String
   
   def sentence?
@@ -16,6 +17,7 @@ class String
   def count_sentences
     self.scan(/[^\.?!]+[\.?!]/).length
   end 
+  binding.pry 
   
   
   
