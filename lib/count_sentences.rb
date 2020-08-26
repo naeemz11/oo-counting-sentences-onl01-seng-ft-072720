@@ -1,6 +1,6 @@
 class String
   
-  def sentence
+  def sentence?
   
   
   
