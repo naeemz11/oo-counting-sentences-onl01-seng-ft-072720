@@ -16,6 +16,7 @@ class String
   
   def count_sentences
     self.scan(/[^\.?!]+[\.?!]/).length
+    
   end 
   binding.pry 
   
